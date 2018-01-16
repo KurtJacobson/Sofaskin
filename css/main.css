@@ -575,16 +575,16 @@ body {
   width: 100%; }
 
 header {
-  background: #05c2d8;
+  background: #555753;
   width: 100%;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
   padding: 1em 0 0 0; }
   header a {
-    color: #d5f2f5;
+    color: #ffffff;
     transition: all 0.2s; }
   header a:hover {
-    color: #f4feff; }
+    color: #729fcf; }
   header h1 {
     font-size: 1.8em;
     font-weight: normal;
@@ -638,15 +638,15 @@ header {
       -moz-appearance: none;
       appearance: none;
       cursor: pointer;
-      background: #05c2d8;
+      background: #555753;
       color: #fff; }
     header nav a {
-      color: #d5f2f5;
+      color: #d3d7cf;
       transition: all 0.2s; }
     header nav a:hover {
-      color: #f4feff; }
+      color: #ffffff; }
     header nav li.active {
-      border-bottom: 3px solid #fff533; }
+      border-bottom: 3px solid #ffffff; }
       header nav li.active a {
         color: #fff; }
 
@@ -668,7 +668,7 @@ header {
   width: 980px; }
 
 .card {
-  background: #fff;
+  background: #ffffff;
   padding: 0.2em 1.5em 1em 1.5em;
   margin: 2em 0;
   box-sizing: border-box;
@@ -712,14 +712,14 @@ header {
 
 footer {
   width: 100%;
-  background: #05c2d8;
+  background: #555753;
   color: #fff;
   padding: 1.5em 0; }
   footer a {
-    color: #fff533;
+    color: #ce5c00;
     transition: all 0.2s; }
   footer a:hover {
-    color: #fffcc2; }
+    color: #f57900; }
 
 img.space {
   margin-top: 1.3em; }
@@ -744,7 +744,7 @@ table.tablespacer tr:not(:last-child) {
   color: #8a8a8a; }
 
 .m-orange {
-  color: #f7cd35; }
+  color: #ce5c00; }
 
 /*Green*/
 .m-gruen {
@@ -951,7 +951,7 @@ ul.topnav li.icon {
         padding: 0.1em 0;
         margin: 0; }
       header nav li.active {
-        border-bottom: 3px solid #fff533; }
+        border-bottom: 3px solid #ffffff; }
         header nav li.active a {
           color: #fff; } 
 
@@ -964,7 +964,7 @@ ul.topnav li.icon {
     display: inline-block;
   }  
   ul.topnav li.active {
-     border-bottom: 3px solid #fff533; 
+     border-bottom: 3px solid #ffffff; 
   }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
@@ -986,7 +986,7 @@ ul.topnav.responsive {
   }
   ul.topnav.responsive li.active {
     display: block;
-    border-bottom: 3px solid #fff533; 
+    border-bottom: 3px solid #ffffff; 
   }
   ul.topnav.responsive li.active a {
     display: block;
